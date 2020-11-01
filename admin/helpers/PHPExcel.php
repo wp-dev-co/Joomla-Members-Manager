@@ -24,15 +24,11 @@
  * @license    http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt    LGPL
  * @version    ##VERSION##, ##DATE##
  */
-
-
 /** PHPExcel root directory */
 if (!defined('PHPEXCEL_ROOT')) {
     define('PHPEXCEL_ROOT', dirname(__FILE__) . '/');
     require(PHPEXCEL_ROOT . 'PHPExcel/Autoloader.php');
 }
-
-
 /**
  * PHPExcel
  *
